@@ -1,0 +1,9 @@
+-Werror makes all warnings into errors. found at gcc.gnu.org
+-Wextra enables some extra warning flags that are not enabled by -Wall. found at gcc.gnu.org
+
+"Undefined reference to 'x'" occurs when the library in which the function is degined is missing or mislocated, or when you are trying to reference something that has not been defined or created. tech guy forums
+
+"Strlen returns size_t" because int might not be wide enough to  store the whole range of possible length values. EX. on 64 bit you could have a string longer thatn 4 gigabytes and if int is 32 bit you cant possibly return such a long string via an int variable. found on stack overflow
+
+the largest integer is the long long integer, which is 64 bits long on mst GNU systems. found on crasseux.com.
+
