@@ -15,7 +15,7 @@ int main( ) {
 
 	// change the value of a to 92 (using the pointer) and then print it
 	*ptr = 92;
-	printf("%d and %d\n", a, *ptr);
+	printf("%d and  %d\n", a, *ptr);
 
 	// point ptr to b and print that value
 	ptr = &b;
