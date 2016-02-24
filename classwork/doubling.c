@@ -7,6 +7,12 @@
 
 int main()
 {
-    
+    int num=2;
+    int i;
+    for(i=1;i<=10;i++)
+    {
+        printf("%d ",num);
+        num*=2;
+    }    
     return 0;
 }
