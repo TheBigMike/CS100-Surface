@@ -4,8 +4,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include "scanner.h"
+#include "washorwear.h"
 
-int main(int argc,char **argv)
-    {
-    return 0;
-    }
+int main()
+{
+	washorwear();
+	return 0;
+}
